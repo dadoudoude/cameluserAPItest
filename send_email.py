@@ -34,7 +34,7 @@ def main2():
     }
 
     title = "鸟类数据中心API自动化测试报告"
-    f = open("C:\\Users\\liugc\\PycharmProjects\\birddatacenter\\report\\result.html", 'rb')
+    f = open("/var/lib/jenkins/workspace/cameluserAPItest/result.html", 'rb')
     mail_body = f.read()
     f.close()
     sendEmail(mail_body, title, config['from_name'], config['from'], config['to'], config['serverport'], config['serverip'],
