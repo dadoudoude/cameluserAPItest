@@ -25,7 +25,7 @@ def main2():
     TO = ['274717413@qq.com']
     config = {
         "from": "773767639@qq.com",
-        "from_name": '鸟类数据中心API自动化测试报告:',
+        "from_name": '骆驼userAPI自动化测试报告:',
         "to": TO,
         "serverip": "smtp.qq.com",
         "serverport": "465",
@@ -33,7 +33,7 @@ def main2():
         "password": "nukzwhfhhifrbdbg"  # QQ邮箱的SMTP授权码
     }
 
-    title = "鸟类数据中心API自动化测试报告"
+    title = "骆驼userAPI自动化测试报告"
     f = open("/var/lib/jenkins/workspace/cameluserAPItest/result.html", 'rb')
     mail_body = f.read()
     f.close()

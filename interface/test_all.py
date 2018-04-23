@@ -1,13 +1,14 @@
 # coding:utf-8
-import requests
-import json
-import ssl
-import urllib3
-import unittest
-import re
 import HTMLTestRunner
-from send_email import main2
-import struct
+import json
+import re
+import unittest
+
+import requests
+import urllib3
+
+from report.send_email import main2
+
 urllib3.disable_warnings()
 
 class Test(unittest.TestCase):

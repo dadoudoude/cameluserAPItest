@@ -16,20 +16,28 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../birddatacenter/report/__init__.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../birddatacenter/report/htmlreport.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../birddatacenter/report/send_email.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/send_email.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interface/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/htmlreport.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../forTest/.idea/encodings.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../forTest/.idea/vcs.xml" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../bird/app/aspirit_13.apk" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../bird/birdtest/run.py" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../bird/birdtest/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cattleuser/interface.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cattleuser/new.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../cattleuser/test.jpg" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/interface.py" afterPath="$PROJECT_DIR$/interface/test_all.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/new.jpg" afterPath="$PROJECT_DIR$/interface/new.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/send_email.py" afterPath="$PROJECT_DIR$/report/send_email.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test.jpg" afterPath="$PROJECT_DIR$/interface/test.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../doudou" afterPath="$PROJECT_DIR$/../doudou" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bird/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../bird/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bird/birdtest/baseSet.py" afterPath="$PROJECT_DIR$/../bird/birdtest/baseSet.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../camel/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../camel/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interface.py" afterPath="$PROJECT_DIR$/interface.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cattleuser/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../cattleuser/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cattleuser/interface.py" afterPath="$PROJECT_DIR$/../cattleuser/interface.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ceshiOutput/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ceshiOutput/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ceshiOutput/ceshi_add/demaxiya.py" afterPath="$PROJECT_DIR$/../ceshiOutput/ceshi_add/demaxiya.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../forTest/.idea/forTest.iml" afterPath="$PROJECT_DIR$/../forTest/.idea/forTest.iml" />
@@ -63,16 +71,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="interface.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/interface.py">
+      <file leaf-file-name="test_all.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/interface/test_all.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="638" column="72" selection-start-line="638" selection-start-column="17" selection-end-line="638" selection-end-column="72" />
+              <caret line="639" column="72" selection-start-line="639" selection-start-column="17" selection-end-line="639" selection-end-column="72" />
               <folding>
-                <element signature="e#15#30#0" expanded="true" />
-                <element signature="e#249#25887#0" expanded="false" />
+                <element signature="e#234#25872#0" expanded="false" />
+                <marker date="1524470174056" expanded="true" signature="144:145" placeholder="import ..." />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/interface/new.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/interface/test.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -97,10 +119,20 @@
         </entry>
       </file>
       <file leaf-file-name="send_email.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/send_email.py">
+        <entry file="file://$PROJECT_DIR$/report/send_email.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8034076">
-              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.5072464">
+              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="htmlreport.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/report/htmlreport.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -116,7 +148,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="PUSH_TAGS">
       <GitPushTagMode />
     </option>
@@ -126,6 +158,8 @@
       <list>
         <option value="$PROJECT_DIR$/interface.py" />
         <option value="$PROJECT_DIR$/send_email.py" />
+        <option value="$PROJECT_DIR$/report/htmlreport.py" />
+        <option value="$PROJECT_DIR$/report/send_email.py" />
       </list>
     </option>
   </component>
@@ -135,10 +169,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2409" />
-    <option name="y" value="2" />
-    <option name="width" value="2418" />
-    <option name="height" value="1318" />
+    <option name="x" value="-2056" />
+    <option name="y" value="282" />
+    <option name="width" value="1908" />
+    <option name="height" value="856" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -165,6 +199,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -183,10 +218,27 @@
               <option name="myItemId" value="cameluser" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="report" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cameluser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cameluser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="interface" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -195,11 +247,16 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\liugc\PycharmProjects\cameluser\report" />
+      <recent name="C:\Users\liugc\PycharmProjects\cameluser\interface" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\liugc\PycharmProjects\cameluser\report" />
       <recent name="C:\Users\liugc\PycharmProjects\cameluser" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in interface">
+  <component name="RunManager" selected="Python tests.Unittests in test_all">
     <configuration default="false" name="Unittest Test.test01" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -211,7 +268,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="cameluser" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interface.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\liugc\PycharmProjects\cameluser\interface\test_all.py" />
       <option name="CLASS_NAME" value="Test" />
       <option name="METHOD_NAME" value="test01" />
       <option name="FOLDER_NAME" value="" />
@@ -223,7 +280,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittests in interface" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittests in test_all" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -234,7 +291,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="cameluser" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interface.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\liugc\PycharmProjects\cameluser\interface\test_all.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -441,11 +498,11 @@
     </configuration>
     <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest Test.test01" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in interface" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_all" />
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in interface" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_all" />
         <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest Test.test01" />
       </list>
     </recent_temporary>
@@ -500,28 +557,28 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2409" y="2" width="2418" height="1318" extended-state="6" />
+    <frame x="-2056" y="282" width="1908" height="856" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25396827" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32827005" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827005" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896176" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -536,46 +593,13 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/interface.py">
+    <entry file="file://$PROJECT_DIR$/interface/test_all.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="638" column="72" selection-start-line="638" selection-start-column="17" selection-end-line="638" selection-end-column="72" />
           <folding>
-            <element signature="e#15#30#0" expanded="true" />
-            <element signature="e#249#25887#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#15#30#0" expanded="true" />
-            <element signature="e#249#25887#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#15#30#0" expanded="true" />
-            <element signature="e#249#25887#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#15#30#0" expanded="true" />
-            <element signature="e#249#25887#0" expanded="false" />
+            <element signature="e#234#25872#0" expanded="false" />
+            <marker date="1524470174056" expanded="true" signature="144:145" placeholder="import ..." />
           </folding>
         </state>
       </provider>
@@ -596,21 +620,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interface.py">
+    <entry file="file://$PROJECT_DIR$/report/send_email.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="638" column="72" selection-start-line="638" selection-start-column="17" selection-end-line="638" selection-end-column="72" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/test_all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#15#30#0" expanded="true" />
-            <element signature="e#249#25887#0" expanded="false" />
+            <element signature="e#234#25872#0" expanded="false" />
+            <marker date="1524470174056" expanded="true" signature="144:145" placeholder="import ..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/send_email.py">
+    <entry file="file://$PROJECT_DIR$/interface/test_all.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8034076">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#234#25872#0" expanded="false" />
+            <marker date="1524470174056" expanded="true" signature="144:145" placeholder="import ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/test_all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#234#25872#0" expanded="false" />
+            <marker date="1524470174056" expanded="true" signature="144:145" placeholder="import ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/test_all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#234#25872#0" expanded="false" />
+            <marker date="1524470174056" expanded="true" signature="144:145" placeholder="import ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/utrunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/imp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="171" column="0" selection-start-line="171" selection-start-column="0" selection-end-line="171" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/test_all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="639" column="72" selection-start-line="639" selection-start-column="17" selection-end-line="639" selection-end-column="72" />
+          <folding>
+            <element signature="e#234#25872#0" expanded="false" />
+            <marker date="1524470174056" expanded="true" signature="144:145" placeholder="import ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/new.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/test.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/htmlreport.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/send_email.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5072464">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
           <folding />
         </state>
       </provider>
