@@ -637,7 +637,7 @@ class Test(unittest.TestCase):
 if __name__=="main":
     unittest.main()
     print(u"即将发送邮件，请稍等")
-    #main2()
+    main2()
     print(u"邮件发送成功，请注意查收")
 
 
