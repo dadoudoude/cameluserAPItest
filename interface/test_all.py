@@ -453,7 +453,8 @@ class Test(unittest.TestCase):
         self.assertIn(deviceid,updatecamel.text)
 
         #Update image by Device
-        f=open("test.jpg","rb")
+        #f=open("C:\\Users\\liugc\\PycharmProjects\\cameluser\\test.jpg","rb")
+        f=open("/var/lib/jenkins/workspace/cameluserAPItest/test.jpg","rb")
         data=f.read()
         pictureupdate=requests.put('https://camel.test.druidtech.net/api/v1/biological/camel/device/'+deviceid+'/image/test.jpg',data,headers=header,verify=False)
         self.assertEquals(201,pictureupdate.status_code)
@@ -510,7 +511,8 @@ class Test(unittest.TestCase):
 
         #Delete Image By device
         #Update image by Device再次上传一张图片
-        f2=open("new.jpg","rb")
+        #f2=open("C:\\Users\\liugc\\PycharmProjects\\cameluser\\new.jpg","rb")
+        f2=open("/var/lib/jenkins/workspace/cameluserAPItest/new.jpg","rb")
         data2=f2.read()
         pictureupdate2=requests.put('https://camel.test.druidtech.net/api/v1/biological/camel/device/'+deviceid+'/image/new.jpg',data2,headers=header,verify=False)
         print("url: ",'https://camel.test.druidtech.net/api/v1/device/camel/device/'+deviceid+'/image/new.jpg')

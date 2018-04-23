@@ -21,16 +21,17 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/../bird/app/aspirit_13.apk" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../bird/birdtest/run.py" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../bird/birdtest/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/report/result.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../cattleuser/interface.py" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../cattleuser/new.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../cattleuser/test.jpg" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/interface/new.jpg" afterPath="$PROJECT_DIR$/new.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/interface/test.jpg" afterPath="$PROJECT_DIR$/test.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../doudou" afterPath="$PROJECT_DIR$/../doudou" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bird/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../bird/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bird/birdtest/baseSet.py" afterPath="$PROJECT_DIR$/../bird/birdtest/baseSet.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../camel/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../camel/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interface/test_all.py" afterPath="$PROJECT_DIR$/interface/test_all.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/htmlreport.py" afterPath="$PROJECT_DIR$/report/htmlreport.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cattleuser/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../cattleuser/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ceshiOutput/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ceshiOutput/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ceshiOutput/ceshi_add/demaxiya.py" afterPath="$PROJECT_DIR$/../ceshiOutput/ceshi_add/demaxiya.py" />
@@ -54,7 +55,7 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/cameluser$Unittest_Test_test01.coverage" NAME="Unittest Test.test01 Coverage Results" MODIFIED="1524466347210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/cameluser$htmlreport.coverage" NAME="htmlreport Coverage Results" MODIFIED="1524471299995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report" />
+    <SUITE FILE_PATH="coverage/cameluser$htmlreport.coverage" NAME="htmlreport Coverage Results" MODIFIED="1524473556394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/report" />
     <SUITE FILE_PATH="coverage/cameluser$Unittests_in_interface.coverage" NAME="Unittests in interface Coverage Results" MODIFIED="1524466401048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/cameluser$Unittests_in_test_all__1_.coverage" NAME="Unittests in test_all (1) Coverage Results" MODIFIED="1524471330520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interface" />
   </component>
@@ -70,8 +71,8 @@
       <file leaf-file-name="test_all.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/interface/test_all.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="8.458974">
-              <caret line="634" column="0" selection-start-line="634" selection-start-column="0" selection-end-line="634" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.6230769">
+              <caret line="457" column="21" selection-start-line="457" selection-start-column="21" selection-end-line="457" selection-end-column="21" />
               <folding>
                 <element signature="e#15#36#0" expanded="true" />
               </folding>
@@ -117,7 +118,7 @@
         <entry file="file://$PROJECT_DIR$/report/send_email.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -127,7 +128,7 @@
         <entry file="file://$PROJECT_DIR$/report/htmlreport.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -165,8 +166,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1972" />
-    <option name="y" value="325" />
+    <option name="x" value="-2184" />
+    <option name="y" value="348" />
     <option name="width" value="1908" />
     <option name="height" value="856" />
   </component>
@@ -263,7 +264,7 @@
       <recent name="C:\Users\liugc\PycharmProjects\cameluser" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_all (1)">
+  <component name="RunManager" selected="Python.htmlreport">
     <configuration default="false" name="Unittest Test.test01" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -552,8 +553,8 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_all (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.htmlreport" />
+        <item index="0" class="java.lang.String" itemvalue="Python.htmlreport" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_all (1)" />
         <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_all" />
         <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest Test.test01" />
       </list>
@@ -609,10 +610,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1972" y="325" width="1908" height="856" extended-state="0" />
-    <editor active="false" />
+    <frame x="-2184" y="348" width="1908" height="856" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25396827" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25396827" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -735,30 +736,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/report/result.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.9580292">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/htmlreport.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/send_email.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/new.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -769,10 +746,26 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/report/send_email.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/htmlreport.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/interface/test_all.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="8.458974">
-          <caret line="634" column="0" selection-start-line="634" selection-start-column="0" selection-end-line="634" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.6230769">
+          <caret line="457" column="21" selection-start-line="457" selection-start-column="21" selection-end-line="457" selection-end-column="21" />
           <folding>
             <element signature="e#15#36#0" expanded="true" />
           </folding>
