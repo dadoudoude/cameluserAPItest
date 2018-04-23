@@ -3,10 +3,10 @@ import unittest
 import HTMLTestRunner
 import sys
 sys.path.append('/var/lib/jenkins/workspace/birduserAPItest/report')
-from send_email import main2
+from report.send_email import main2
 def all_case():
-    #case_dir = "C:\\Users\\liugc\\PycharmProjects\\cattleuser\\interface"
-    case_dir = "/var/lib/jenkins/workspace/cameluserAPItest/interface"
+    case_dir = "C:\\Users\\liugc\\PycharmProjects\\cameluser\\interface"
+    #case_dir = "/var/lib/jenkins/workspace/cameluserAPItest/interface"
     testcase = unittest.TestSuite()
     discover = unittest.defaultTestLoader.discover(case_dir,pattern="test*.py",top_level_dir=None)
     # discover方法筛选出来的用例，循环添加到测试套件中
@@ -20,8 +20,8 @@ def all_case():
     return testcase
 if __name__ == "__main__":
 
-    #report_path="C:\\Users\\liugc\\PycharmProjects\\cattleuser\\report\\result.html"
-    report_path="/var/lib/jenkins/workspace/cameluserAPItest/report/result.html"
+    report_path="C:\\Users\\liugc\\PycharmProjects\\cameluser\\report\\result.html"
+    #report_path="/var/lib/jenkins/workspace/cameluserAPItest/report/result.html"
     fp= open(report_path,"wb")
     runner = HTMLTestRunner.HTMLTestRunner(stream=fp,
                                            title=u'骆驼userAPI测试报告',
