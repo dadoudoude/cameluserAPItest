@@ -595,7 +595,7 @@ class Test(unittest.TestCase):
         src_name=strme10[1:-1]
         print("src_name",src_name)'''
 
-
+        '''
         #List message
         listmessage=requests.get('https://camel.test.druidtech.net/api/v1/message/',headers=header,verify=False)
         self.assertIn("msg_type",listmessage.text)
@@ -629,6 +629,7 @@ class Test(unittest.TestCase):
         data3=json.dumps(manymessage)
         deletemanymessage=requests.put('https://camel.test.druidtech.net/api/v1/message/delete',data3,headers=header,verify=False)
         self.assertEquals(204,deletemanymessage.status_code)
+        '''
 
 
 
