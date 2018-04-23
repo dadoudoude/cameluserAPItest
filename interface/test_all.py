@@ -635,18 +635,4 @@ class Test(unittest.TestCase):
 
 
 
-if __name__=="main":
-    #report_path="C:\\Users\\liugc\\PycharmProjects\\birddatacenter\\report\\result.html"
-    report_path="/var/lib/jenkins/workspace/cameluserAPItest/result.html"
-    fp= open(report_path,"wb")
-    runner = HTMLTestRunner.HTMLTestRunner(stream=fp,
-                                           title=u'鸟类数据中心API测试报告',
-                                           description=u'用例执行结果')
-    unittest.main()
-
-    print(u"即将发送邮件，请稍等")
-    main2()
-    print(u"邮件发送成功，请注意查收")
-
-
 
