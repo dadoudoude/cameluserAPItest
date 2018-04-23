@@ -527,7 +527,7 @@ class Test(unittest.TestCase):
         deleteimagebydevice=requests.delete('https://camel.test.druidtech.net/api/v1/biological/camel/device/'+deviceid+'/image/'+imageid2,headers=header,verify=False)
         self.assertEquals(204,deleteimagebydevice.status_code)
 
-
+        '''
         #Get Unread Message
         getunreadmessage=requests.get('https://camel.test.druidtech.net/api/v1/message/unread',headers=header,verify=False)
         print("Unread Message",getunreadmessage.text)
@@ -576,6 +576,7 @@ class Test(unittest.TestCase):
         strme7=str(m7)
         msg_cn=strme7[1:-1]
         print("msg_cn",msg_cn)
+        '''
         '''#msg_type
         m8=re.findall(r'msg_cn[\s\S]*?msg_type.?', strm1)
         print("msg_type",m8)
@@ -594,7 +595,6 @@ class Test(unittest.TestCase):
         strme10=str(m10)
         src_name=strme10[1:-1]
         print("src_name",src_name)'''
-
         '''
         #List message
         listmessage=requests.get('https://camel.test.druidtech.net/api/v1/message/',headers=header,verify=False)
@@ -637,7 +637,7 @@ class Test(unittest.TestCase):
 if __name__=="main":
     unittest.main()
     print(u"即将发送邮件，请稍等")
-    main2()
+    #main2()
     print(u"邮件发送成功，请注意查收")
 
 
