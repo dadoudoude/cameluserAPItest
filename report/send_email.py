@@ -22,7 +22,8 @@ def sendEmail(content, title, from_name, from_address, to_address, serverport, s
 #HEFEN_D = pth.abspath(pth.dirname(__file__))
 
 def main2():
-    TO = ['274717413@qq.com','3346263535@qq.com']
+    TO = ['274717413@qq.com']
+    TO = ['3346263535@qq.com']
     config = {
         "from": "773767639@qq.com",
         "from_name": '骆驼userAPI自动化测试报告:',
